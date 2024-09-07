@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="liverpool.ico" type="image/x-icon">
+    <title>YNWA</title>
+</head>
+
+<body>
+    <header>
+        <h1><b>Liverpool's Gallery Of Honours</b></h1>
+        <h2>
+            <i>Here you can learn more about the glorious past of one of the world's greatest soccer clubs!</i>
+        </h2>
+    </header>
+
+    <main>
+        <section>
+            <input type="text" placeholder="Type a Season (e.g.: '1980-81') or a Year (e.g.: '2019')" id="search-field" autocomplete="off" autofocus>
+            <button onclick="search()">Search</button>
+        </section>
+        <section class="results-search" id="results-search">
+        </section>
+    </main>
+
+    <footer>
+        <p>Project developed during "Imersão Alura com Google Gemini" by Alura. September 2024. All rights reserverd. Please don't forget to <a href="https://github.com/gurbr/alura-gemini-2024/blob/main/README.md" target="_blank">READ ME</a>. Contact: guhnrq@gmail.com</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
